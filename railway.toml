@@ -1,0 +1,10 @@
+[project]
+name = "impostor-royale"
+
+[deploy]
+numReplicas = 1
+restartPolicyType = "ON_FAILURE"
+
+[[services]]
+name = "web"
+start = "uvicorn server:app --host 0.0.0.0 --port $PORT"

@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: impostor-royale
+    env: docker
+    autoDeploy: true
+    plan: starter  # usa 'starter' o superior para "always on"
+    healthCheckPath: /
