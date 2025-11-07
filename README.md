@@ -69,7 +69,7 @@ Invitar con: `?room=ABCD` (ej., `http://localhost:8000/static/index.html?room=AB
 
 ### Enlace directo útil (ejemplo de cómo se ve)
 ```
-https://render.com/deploy?repo=https://github.com/tu_usuario/impostor-royale
+https://render.com/deploy?repo=https://github.com/Benjaminr180/impostor-royale
 ```
 
 > Si me compartes la URL final de tu repo, te devuelvo el botón listo ya con tu link.
